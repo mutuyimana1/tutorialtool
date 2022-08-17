@@ -1,0 +1,29 @@
+{
+  "name": "tutorialtool-backend",
+  "version": "1.0.0",
+  "description": "this is platform which will have courses for student both advanced and beginners ",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "dev-start": "nodemon --exec babel-node ./server.js"
+  },
+  "author": "Mutuyimana",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/node": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.18.6",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/register": "^7.18.6",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.1",
+    "nodemon": "^2.0.18"
+  }
+}
