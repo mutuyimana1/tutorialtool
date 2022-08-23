@@ -4,8 +4,10 @@
   "description": "this is platform which will have courses for student both advanced and beginners ",
   "main": "server.js",
   "scripts": {
-    "test": "test",
-    "dev-start": "nodemon --exec babel-node ./server.js"
+    
+    "start":"babel-node ./server.js",
+    "dev-start": "nodemon --exec babel-node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mutuyimana",
   "license": "ISC",
