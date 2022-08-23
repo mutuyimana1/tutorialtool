@@ -12,6 +12,9 @@ app.use(bodyParser.json());
 app.use("/user", userRoute);
 app.use("/course", courseRoute);
 app.use("/class", classesRoute);
+app.use("/",(req,res)=> res.status(200).json({
+  message:"Welcome to Tutorial tool APIS"
+}));
 //DATABASE CONFIGURATION
 const database = process.env.DATABASE;
 mongoose
